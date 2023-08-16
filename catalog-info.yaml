@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mabenoit-test2"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-19"
+    "humanitec.com/appId": "mabenoit-test2"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
